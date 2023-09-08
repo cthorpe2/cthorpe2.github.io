@@ -1,8 +1,8 @@
 # Connor Thorpen
 ## Assignment 1
-## [Submission date: MM/DD/YY]
+## 09/08/23
 ## Worked with/sources 
 * W3Schools
 ## Project Quirks/ Things that don't work
-* no issues
-### [URL]
+* I made a separate github repo to host the website. I hope this is OK.
+### https://cthorpe2.github.io/Homework1/index.html
