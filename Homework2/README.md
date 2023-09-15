@@ -6,4 +6,4 @@
 * Danny's lecture slides
 ## Project Quirks/ Things that don't work
 * no issues
-### [URL]
+### https://cthorpe2.github.io/Homework1/index.html
