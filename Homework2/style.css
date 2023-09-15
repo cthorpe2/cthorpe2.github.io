@@ -1,0 +1,127 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ffc526;
+    padding: 10px;
+  }
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 40% auto;
+    background-color: #ffc526;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffc526;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform .15s;
+}
+
+.grid-item img:hover{
+    transform: scale(1.03);
+}
+
+body {
+    background-color: #ffc526;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffc526;
+    color: #4c3120;
+    text-align: center;
+    padding: 20px;
+    background-image: url('GoldPattern.jpeg');
+    background-size:auto;
+    background-repeat:repeat;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-image: radial-gradient(circle, #ffc526, #4c3120);
+    padding: 10px;
+}
+
+.nav2 {
+    background-image: linear-gradient(to bottom, #ffc526, #4c3120);
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #492f24;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url('UWbanner.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    text-align: center;
+}
+
+#navigation {
+    text-align: center;
+}
+
+nav ul li:last-child a {
+    border: 1px solid #492f24;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.comments p:nth-child(even){
+    background-color: rgb(179, 179, 179);
+}
+.comments p:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+
+.comment-input span:hover{
+    cursor: pointer;
+}
+/*resizing for small screens*/
+@media (max-width: 650px) {
+    .grid-container {
+        grid-template-columns: auto; 
+    }
+    
+   
+    main {
+        padding: 10px;
+    }
+
+    .grid-item img {
+        width: 70%;
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+    }
+
+}
